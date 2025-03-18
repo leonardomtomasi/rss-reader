@@ -51,6 +51,7 @@ for item in root.findall(".//item"):
 events.sort()
 for event in events:
     print(f"--------------------------")
+    print()
     print(f"{event[0].strftime('%Y-%m-%d %I:%M %p')}")
     print(f"Title: {event[1]}")
     print(f"Description: {event[2]}")
