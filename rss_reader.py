@@ -4,6 +4,7 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 
+# RSS url from Modern Campus Calendar
 rss_url = "https://api.calendar.moderncampus.net/pubcalendar/cc36e5e8-4b78-48b7-aebf-27102640ef4d/rss?category=cb4bca04-cb7e-4b98-a6be-7fc69c61f382&category=e79c85e2-e378-4b9a-9206-b7af2c5e00fb&category=8405f58a-2af0-4a39-9978-bbb089146259&url=https%3A%2F%2Fwww.apu.edu%2Fcalendar%2Fcampus-events%2F&hash=true"
 
 response = requests.get(rss_url)
